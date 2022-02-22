@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="zUyAH.U" resname="group.edit.submit">
+        <source>group.edit.submit</source>
+        <target>Modifier groupe</target>
+      </trans-unit>
+      <trans-unit id="gbd_oyy" resname="group.show.name">
+        <source>group.show.name</source>
+        <target>Nom du groupe</target>
+      </trans-unit>
+      <trans-unit id="q9PlPqt" resname="group.new.submit">
+        <source>group.new.submit</source>
+        <target>Créer un groupe</target>
+      </trans-unit>
+      <trans-unit id="W8JrORM" resname="group.flash.updated">
+        <source>group.flash.updated</source>
+        <target>Le groupe a été modifié.</target>
+      </trans-unit>
+      <trans-unit id="qApK0Ss" resname="group.flash.created">
+        <source>group.flash.created</source>
+        <target>Le groupe a été créé.</target>
+      </trans-unit>
+      <trans-unit id="62IBurx" resname="group.flash.deleted">
+        <source>group.flash.deleted</source>
+        <target>Le groupe a été supprimé.</target>
+      </trans-unit>
+      <trans-unit id="cMU.0rQ" resname="security.login.username">
+        <source>security.login.username</source>
+        <target>Nom d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="N_kLMwm" resname="security.login.password">
+        <source>security.login.password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="8DSptbg" resname="security.login.remember_me">
+        <source>security.login.remember_me</source>
+        <target>Se souvenir de moi</target>
+      </trans-unit>
+      <trans-unit id="tuAV77Z" resname="security.login.submit">
+        <source>security.login.submit</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="7g9SaRk" resname="profile.show.username">
+        <source>profile.show.username</source>
+        <target>Nom d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="AaZaMf7" resname="profile.show.email">
+        <source>profile.show.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="ci5Tbzf" resname="profile.edit.submit">
+        <source>profile.edit.submit</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="C2lNaG." resname="profile.flash.updated">
+        <source>profile.flash.updated</source>
+        <target>Le profile a été modifié.</target>
+      </trans-unit>
+      <trans-unit id="agwdlwc" resname="change_password.submit">
+        <source>change_password.submit</source>
+        <target>Modifier le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="SFo6Y3." resname="change_password.flash.success">
+        <source>change_password.flash.success</source>
+        <target>Le mot de passe a été modifié.</target>
+      </trans-unit>
+      <trans-unit id=".ndupSK" resname="registration.check_email">
+        <source>registration.check_email</source>
+        <target>Un email a été envoyé á %email%. Il contient le lien d'activation, vous devez cliquer sur ce lien pour activer votre compte.</target>
+      </trans-unit>
+      <trans-unit id="B.ZozIs" resname="registration.confirmed">
+        <source>registration.confirmed</source>
+        <target>Félicitation %username%, votre compte a été activé.</target>
+      </trans-unit>
+      <trans-unit id="_wd.d62" resname="registration.back">
+        <source>registration.back</source>
+        <target>Retour à la page d’origine.</target>
+      </trans-unit>
+      <trans-unit id="hmX3IJA" resname="registration.submit">
+        <source>registration.submit</source>
+        <target>M'inscrire</target>
+      </trans-unit>
+      <trans-unit id="by9ThPc" resname="registration.flash.user_created">
+        <source>registration.flash.user_created</source>
+        <target>L’utilisateur a été créé avec succès.</target>
+      </trans-unit>
+      <trans-unit id="N.aTMve" resname="registration.email.subject">
+        <source>registration.email.subject</source>
+        <target>Bienvenu %username%!</target>
+      </trans-unit>
+      <trans-unit id="hN23SFM" resname="registration.email.message">
+        <source>registration.email.message</source>
+        <target>Bonjour %username%!
+
+Pour terminer l’activation de votre compte, rendez-vous sur %confirmationUrl%.
+
+Ce lien ne peut être utilisé qu’une seule fois pour valider votre compte.
+
+Cordialement,
+L'équipe samlidp.
+</target>
+      </trans-unit>
+      <trans-unit id="_cY.wHP" resname="resetting.check_email">
+        <source>resetting.check_email</source>
+        <target>Un courriel a été envoyé. Il contient un lien sur lequel vous devez cliquer pour réinitialiser votre mot de passe.
+Remarque : Vous ne pouvez demander qu’un nouveau mot de passe dans %tokenLifetime% heures.
+
+Si vous ne recevez pas ce courriel, veuillez vérifier votre dossier de pourriel..
+</target>
+      </trans-unit>
+      <trans-unit id="f5J.GZt" resname="resetting.request.username">
+        <source>resetting.request.username</source>
+        <target>Nom d’utilisateur ou adresse email</target>
+      </trans-unit>
+      <trans-unit id="55aST1i" resname="resetting.request.submit">
+        <source>resetting.request.submit</source>
+        <target>réinitialiser mot de passe</target>
+      </trans-unit>
+      <trans-unit id="KsNOzZz" resname="resetting.reset.submit">
+        <source>resetting.reset.submit</source>
+        <target>Modifier mot de passe</target>
+      </trans-unit>
+      <trans-unit id="TUD.2.O" resname="resetting.flash.success">
+        <source>resetting.flash.success</source>
+        <target>Le mot de passe a été réinitialisé avec succès.</target>
+      </trans-unit>
+      <trans-unit id="Redv4tu" resname="resetting.email.subject">
+        <source>resetting.email.subject</source>
+        <target>réinitialiser mot de passe</target>
+      </trans-unit>
+      <trans-unit id="Lm8o8Qg" resname="resetting.email.message">
+        <source>resetting.email.message</source>
+        <target>Bonjour %username%!
+
+Pour réinitialiser votre mot de passe, rendez-vous sur %confirmationUrl%
+
+Cordialement,
+L'équipe samlidp.
+</target>
+      </trans-unit>
+      <trans-unit id="7oF7jXj" resname="layout.logout">
+        <source>layout.logout</source>
+        <target>Se déconnecter</target>
+      </trans-unit>
+      <trans-unit id="J.8npBV" resname="layout.login">
+        <source>layout.login</source>
+        <target>se connecter</target>
+      </trans-unit>
+      <trans-unit id="sLu8MAv" resname="layout.register">
+        <source>layout.register</source>
+        <target>S'inscrire</target>
+      </trans-unit>
+      <trans-unit id="BW_lWYD" resname="layout.logged_in_as">
+        <source>layout.logged_in_as</source>
+        <target>connecté en tant que %username%</target>
+      </trans-unit>
+      <trans-unit id="v1EdMjG" resname="form.group_name">
+        <source>form.group_name</source>
+        <target>Nom du groupe</target>
+      </trans-unit>
+      <trans-unit id="B0VCgO_" resname="form.username">
+        <source>form.username</source>
+        <target>Nom d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="3IGOm9D" resname="form.email">
+        <source>form.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="IY9XZs0" resname="form.current_password">
+        <source>form.current_password</source>
+        <target>Mot de passe actuel</target>
+      </trans-unit>
+      <trans-unit id="yjqmSBK" resname="form.password">
+        <source>form.password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="Y4Q7qvl" resname="form.password_confirmation">
+        <source>form.password_confirmation</source>
+        <target>Confirmer Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="JTbuLK0" resname="form.new_password">
+        <source>form.new_password</source>
+        <target>Nouveau Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="hdTL88S" resname="form.new_password_confirmation">
+        <source>form.new_password_confirmation</source>
+        <target>Confirmer Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="MMHY0_k" resname="Forgot password?">
+        <source>Forgot password?</source>
+        <target>__Forgot password?</target>
+      </trans-unit>
+      <trans-unit id="3B3ZEh2" resname="resetting.request.invalid_idp">
+        <source>resetting.request.invalid_idp</source>
+        <target>IdP %idp% Introuvable</target>
+      </trans-unit>
+      <trans-unit id="o83gKqa" resname="resetting.request.invalid_username">
+        <source>resetting.request.invalid_username</source>
+        <target>Nom d'utilisateur ou email introuvable</target>
+      </trans-unit>
+      <trans-unit id="5bRvwX8" resname="resetting.request.mail_sent">
+        <source>resetting.request.mail_sent</source>
+        <target>Un email a été envoyé.</target>
+      </trans-unit>
+      <trans-unit id="JxUaezc" resname="resetting.request.title">
+        <source>resetting.request.title</source>
+        <target>Réinitialiser mot de passe</target>
+      </trans-unit>
+      <trans-unit id="D_FkK7J" resname="resetting.request.for_idp">
+        <source>resetting.request.for_idp</source>
+        <target><![CDATA[
+        for idp: <strong>%idp%</strong>
+        ]]></target>
+      </trans-unit>
+        <trans-unit id="form.givenname.label" resname="form.givenname.label">
+            <source>form.givenname.label</source>
+            <target>Prénom</target>
+        </trans-unit>
+        <trans-unit id="form.sn.label" resname="form.sn.label">
+            <source>form.sn.label</source>
+            <target>Nom</target>
+        </trans-unit>
+    </body>
+  </file>
+</xliff>

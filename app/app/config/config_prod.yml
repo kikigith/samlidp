@@ -1,6 +1,7 @@
 imports:
     - { resource: config.yml }
-
+parameters:
+    locale: fr
 monolog:
     handlers:
         main:

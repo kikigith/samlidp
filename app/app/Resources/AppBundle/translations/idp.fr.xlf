@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="Fhb07By" resname="add.title">
+        <source>add.title</source>
+        <target>Créer une nouvelle Fournisseur d'Identité</target>
+      </trans-unit>
+      <trans-unit id="oVf.pCK" resname="add.first_step_title">
+        <source>add.first_step_title</source>
+        <target> Créer une nouvelle Fournisseur d'Identité - 1ere Etape</target>
+      </trans-unit>
+      <trans-unit id="kJVgAnA" resname="add.cannot_modify">
+        <source>add.cannot_modify</source>
+        <target>Vous ne pouvez pas modifier ces paramètres après l’enregistrement.</target>
+      </trans-unit>
+      <trans-unit id="IBDbPc." resname="add.next_step">
+        <source>add.next_step</source>
+        <target>Etape suivante</target>
+      </trans-unit>
+      <trans-unit id="z1hjsed" resname="add.only_letters_and_numbers">
+        <source>add.only_letters_and_numbers</source>
+        <target>Il ne peut contenir que des lettres et des chiffres</target>
+      </trans-unit>
+      <trans-unit id="0tB50ML" resname="add.too_sort">
+        <source>add.too_sort</source>
+        <target>C'est trop court</target>
+      </trans-unit>
+      <trans-unit id="Tv1WlDf" resname="add.its_ok">
+        <source>add.its_ok</source>
+        <target>C'est correct.</target>
+      </trans-unit>
+      <trans-unit id="DJjq9ds" resname="add.already_taken">
+        <source>add.already_taken</source>
+        <target>Cet identifiant est déjà pris</target>
+      </trans-unit>
+      <trans-unit id="dkoZhPX" resname="edit.title">
+        <source>edit.title</source>
+        <target>Configurez votre Fournisseur d'Identité - %idp%</target>
+      </trans-unit>
+      <trans-unit id="PwEKF1P" resname="edit.bigtitle">
+        <source>edit.bigtitle</source>
+        <target>Configurez votre Fournisseur d'Identité</target>
+      </trans-unit>
+      <trans-unit id="_JXOd6A" resname="edit.main_settings">
+        <source>edit.main_settings</source>
+        <target>Paramétrages de base</target>
+      </trans-unit>
+      <trans-unit id="QUtFpU1" resname="edit.note">
+        <source>edit.note</source>
+        <target><![CDATA[
+         <b>Note: </b>Ces changements ne s’appliquent qu’ici. Si ce fournisseur d’identité est enregistré dans l’une des fédérations, vous devriez avoir ces propriétés mises à jour là aussi.
+         
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="GzznxYE" resname="edit.logo">
+        <source>edit.logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="Rq0PjMl" resname="edit.remove_logo">
+        <source>edit.remove_logo</source>
+        <target>Supprimer logo</target>
+      </trans-unit>
+      <trans-unit id="uokec2Z" resname="edit.save">
+        <source>edit.save</source>
+        <target>Enregistrer les parametres</target>
+      </trans-unit>
+      <trans-unit id=".VXJGS." resname="edit.finish">
+        <source>edit.finish</source>
+        <target>Terminer</target>
+      </trans-unit>
+      <trans-unit id="LI3e.5S" resname="edit.domains_and_scopes">
+        <source>edit.domains_and_scopes</source>
+        <target>Portées</target>
+      </trans-unit>
+      <trans-unit id="5Vqg2dw" resname="edit.domains_text">
+        <source>edit.domains_text</source>
+        <target><![CDATA[
+            À moins que vous ne définissiez votre propre nom de domaine en tant qu’étendue, votre portée par défaut est <b>%idp%</b>. C’est parfait, mais pour l’utilisation en production, nous vous recommandons d’utiliser un nom de domaine qui appartient à votre organisation. Avant de commencer à utiliser votre nom de domaine comme domaine d’application, nous vérifions qu’il existe et qu’il est sous votre contrôle. Veuillez créer un enregistrement TXT dans la zone DNS de votre nom de domaine avec le contenu du hash que vous trouverez ci-dessous, puis cliquez sur le bouton 'Verifier domaine'.
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="3NtI_N9" resname="edit.domain_name">
+        <source>edit.domain_name</source>
+        <target>Nom de domaine</target>
+      </trans-unit>
+      <trans-unit id="sipPB3J" resname="edit.verified_domains">
+        <source>edit.verified_domains</source>
+        <target>Domaines et Portées Verifiés</target>
+      </trans-unit>
+      <trans-unit id="WAyKz2D" resname="edit.default_scope">
+        <source>edit.default_scope</source>
+        <target>Portée par défaut</target>
+      </trans-unit>
+      <trans-unit id="Rx5bZlL" resname="edit.set_as_default_scope">
+        <source>edit.set_as_default_scope</source>
+        <target>Définir comme portée par défaut</target>
+      </trans-unit>
+      <trans-unit id="my6pix0" resname="edit.users_with_scope">
+        <source>edit.users_with_scope</source>
+        <target>Utilisateurs avec portée</target>
+      </trans-unit>
+      <trans-unit id="4RYZ8tb" resname="edit.delete_domain">
+        <source>edit.delete_domain</source>
+        <target>Supprimer domaine</target>
+      </trans-unit>
+      <trans-unit id="02jdGvg" resname="edit.delete_scope">
+        <source>edit.delete_scope</source>
+        <target>Supprimer portée</target>
+      </trans-unit>
+      <trans-unit id="2aGp43Q" resname="edit.add_scope">
+        <source>edit.add_scope</source>
+        <target>Ajouter portée</target>
+      </trans-unit>
+      <trans-unit id="Vm1bmx9" resname="edit.users">
+        <source>edit.users</source>
+        <target>Utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="3BU.n4q" resname="edit.add_users_text">
+        <source>edit.add_users_text</source>
+        <target>Votre fournisseur d’identité est presque prêt, mais vous n’avez pas encore ajouté d’utilisateurs. Vous pouvez ajouter des utilisateurs un par un en utilisant une interface graphique ou en téléchargeant un fichier CSV (valeurs séparées par des virgules).</target>
+      </trans-unit>
+      <trans-unit id="IMUzEob" resname="edit.add_users_link">
+        <source>edit.add_users_link</source>
+        <target>Ajoutez vos 1ers utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="9Ku.Dcj" resname="edit.edit_users_text">
+        <source>edit.edit_users_text</source>
+        <target>Vous avez  %count% utilisateurs dans la base de données d'authentification. Vous pouvez les ajouter, les modifier ou les supprimer un á un ou en utilisant une interface graphique ou en téléchargeant un fichier CSV (valeurs séparées par des virgules).</target>
+      </trans-unit>
+      <trans-unit id="61zzxsv" resname="edit.edit_users_link">
+        <source>edit.edit_users_link</source>
+        <target>Editer les utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="V7Ftcyg" resname="edit.federation">
+        <source>edit.federation</source>
+        <target>Fédération</target>
+      </trans-unit>
+      <trans-unit id="vOL4p.L" resname="edit.federation_more_docs">
+        <source>edit.federation_more_docs</source>
+        <target>Plus de documentations</target>
+      </trans-unit>
+      <trans-unit id="4TLF3nw" resname="edit.metadata_title">
+        <source>edit.metadata_title</source>
+        <target>Métadonnées de ce Fournisseur d'Identité (IdP) </target>
+      </trans-unit>
+      <trans-unit id="vh4j7AJ" resname="edit.metadata_text">
+        <source>edit.metadata_text</source>
+        <target>Si vous voulez adhérer à une fédération nationale, vos métadonnées SAML doivent y être enregistrées. Vous pouvez utiliser l’URL suivante ou le contenu XML comme aide pour l’enregistrement, mais gardez à l’esprit que les différentes fédérations ont des exigences d’adhésion différentes. La plupart d’entre eux ne sont disponibles que pour un sous-ensemble d’organisations enregistrées dans leur pays, et probablement un accord de services signé est également nécessaire. Nous ne couvrons que les aspects techniques.</target>
+      </trans-unit>
+      <trans-unit id="B5cZZCn" resname="edit.sp_title">
+        <source>edit.sp_title</source>
+        <target>Fournisseurs de Service Personnalisés</target>
+      </trans-unit>
+      <trans-unit id="4sehaor" resname="edit.sp_text">
+        <source>edit.sp_text</source>
+        <target>Vous pouvez ajouter n’importe quel Fournisseur de Service exclusivement pour votre Fournisseur d’Identité, sans participer à aucune fédération. C’est une bonne option pour les tests, ou si un Fournisseur de Service ne fait pas partie de la fédération dans laquelle vous êtes. L’URL de métadonnées donnée doit être accessible de l’extérieur et les métadonnées doivent contenir des éléments de certificats x509 pour la signature et le chiffrement.</target>
+      </trans-unit>
+      <trans-unit id="5FqGugW" resname="edit.sp_text_anyway">
+        <source>edit.sp_text_anyway</source>
+        <target>Tester votre Fournisseur d'Identité avec un Fournisseur de Service réel á </target>
+      </trans-unit>
+      <trans-unit id="DcbRkFe" resname="edit.verify_domain">
+        <source>edit.verify_domain</source>
+        <target>Verifier domaine</target>
+      </trans-unit>
+      <trans-unit id="0QXue1W" resname="list.add_button">
+        <source>list.add_button</source>
+        <target>Créer un nouveau Fournisseur d'Identité</target>
+      </trans-unit>
+      <trans-unit id="b3EnH7p" resname="list.title">
+        <source>list.title</source>
+        <target>Vos Fournisseurs d'Identité</target>
+      </trans-unit>
+      <trans-unit id="vopzfQD" resname="list.renew">
+        <source>list.renew</source>
+        <target><![CDATA[
+          Dernière période à payer: <b>%date_start%</b> - <b>%date_e%</b>.
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="hDy.Kk_" resname="list.checkout">
+        <source>list.checkout</source>
+        <target>Paiement</target>
+      </trans-unit>
+      <trans-unit id="nogUKAG" resname="list.expired">
+        <source>list.expired</source>
+        <target>Votre Fournisseur d'Identité a été suspendu.</target>
+      </trans-unit>
+      <trans-unit id="d13PmPE" resname="list.status_normal">
+        <source>list.status_normal</source>
+        <target>Votre Fournisseur d'Identité fonctionne normalement.</target>
+      </trans-unit>
+      <trans-unit id="z0wnKyx" resname="list.status_expire">
+        <source>list.status_expire</source>
+        <target>Votre période d'essai a expiré</target>
+      </trans-unit>
+      <trans-unit id="yjKHMyL" resname="list.status_first_renewing">
+        <source>list.status_first_renewing</source>
+        <target>Votre première période de renouvellement débutera le</target>
+      </trans-unit>
+      <trans-unit id="waNO2hu" resname="list.status_active_users">
+        <source>list.status_active_users</source>
+        <target>Utilisateurs actifs dans la période en cours:</target>
+      </trans-unit>
+      <trans-unit id="6f.fnlb" resname="list.status_next_renewing">
+        <source>list.status_next_renewing</source>
+        <target><![CDATA[
+          Période en cours: <b>%date_start%</b> - <b>%date_end%</b>.
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="CqDvIAj" resname="list.status_balance">
+        <source>list.status_balance</source>
+        <target>Solde actuel:</target>
+      </trans-unit>
+      <trans-unit id="bh02lTO" resname="list.status_normal_but_renew">
+        <source>list.status_normal_but_renew</source>
+        <target><![CDATA[
+        Votre Fournisseur d'Identité fonctionnera normalement jusqu'á <b>%date1%</b>, mais vous devez renouveler votre abonnement. Faute de renouvellement, le <b>%date2%</b> votre IdP sera désactivé, les utilisateurs ne seront pas en mesure de se connecter via votre Fournisseur d'Identité; bien sûr vous pouvez le réactiver á tout instant. 
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="CoCDNKm" resname="list.status_price">
+        <source>list.status_price</source>
+        <target>Le prix est calculé en fonction du nombre d’utilisateurs actifs de la dernière période et du type d’établissement</target>
+      </trans-unit>
+      <trans-unit id="0XVYcI7" resname="list.status_more_fees">
+        <source>list.status_more_fees</source>
+        <target>En savoir plus sur les frais</target>
+      </trans-unit>
+      <trans-unit id="lePp6CA" resname="list.status_renewing_fee">
+        <source>list.status_renewing_fee</source>
+        <target>Solde de la période en cours:</target>
+      </trans-unit>
+      <trans-unit id="4w2.0He" resname="list.status_suspended">
+        <source>list.status_suspended</source>
+        <target><![CDATA[
+          Votre fournisseur d’identité a été suspendu le <b>%date%</b> parce que vous n’avez pas renouvelé votre abonnement. Vous pouvez le faire dès maintenant, ou à tout moment lorsque vous le souhaitez, pour renouveler votre abonnement, vous devez payer pour votre dernière période : <b>%period_s% - %period_e%</b>.
+          ]]></target>
+      </trans-unit>
+      <trans-unit id=".Nc0yLD" resname="list.status_suspensed_users">
+        <source>list.status_suspensed_users</source>
+        <target>Pendant que votre Fournisseur d’Identité est suspendu, vos utilisateurs ne peuvent pas l’utiliser pour effectuer la connexion.</target>
+      </trans-unit>
+      <trans-unit id="4I28sZA" resname="list.confirm">
+        <source>list.confirm</source>
+        <target>Confirmer le paiement</target>
+      </trans-unit>
+      <trans-unit id="thvv5cS" resname="list.bitpay">
+        <source>list.bitpay</source>
+        <target>Avec BitPay c'est 30% moins cher.</target>
+      </trans-unit>
+      <trans-unit id="A.MQlZt" resname="list.about_invoice_title">
+        <source>list.about_invoice_title</source>
+        <target>À propos de la facture</target>
+      </trans-unit>
+      <trans-unit id="fg45OW5" resname="list.about_invoice_text">
+        <source>list.about_invoice_text</source>
+        <target>Vous recevrez une facture via le site du service de paiement sélectionné (PayPal ou BitPay) après confirmation du paiement.</target>
+      </trans-unit>
+      <trans-unit id="qUP4VQF" resname="list.checkout_paypal">
+        <source>list.checkout_paypal</source>
+        <target>Paiement via PayPal</target>
+      </trans-unit>
+      <trans-unit id="C2dQaZS" resname="list.checkout_bitpay">
+        <source>list.checkout_bitpay</source>
+        <target>Paiement via BitPay (-30%)</target>
+      </trans-unit>
+      <trans-unit id="Y18sbkU" resname="list.cancel">
+        <source>list.cancel</source>
+        <target>Annuler</target>
+      </trans-unit>
+      <trans-unit id="q7En1Mt" resname="list.total">
+        <source>list.total</source>
+        <target>Total:</target>
+      </trans-unit>
+      <trans-unit id="UPXSF9r" resname="list.period_started">
+        <source>list.period_started</source>
+        <target>Période á payer:</target>
+      </trans-unit>
+      <trans-unit id="guDhd6Q" resname="list.active_users">
+        <source>list.active_users</source>
+        <target>Utilisateurs actifs dans la période à payer:</target>
+      </trans-unit>
+      <trans-unit id="mygpBmZ" resname="list_element_footer.edit_idp">
+        <source>list_element_footer.edit_idp</source>
+        <target>Modifier les paramètres du fournisseur d’identité</target>
+      </trans-unit>
+      <trans-unit id="aMliSvQ" resname="list_element_footer.edit_users">
+        <source>list_element_footer.edit_users</source>
+        <target>Editer les utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="9LoBLxQ" resname="list_element_footer.payment_history">
+        <source>list_element_footer.payment_history</source>
+        <target>Historique des Paiement</target>
+      </trans-unit>
+      <trans-unit id="UWVEkhF" resname="list_element_footer.metadata">
+        <source>list_element_footer.metadata</source>
+        <target>Métadonnées SAML</target>
+      </trans-unit>
+      <trans-unit id="IkFCPGF" resname="edit.known_federation_title">
+        <source>edit.known_federation_title</source>
+        <target>Fédérations connues de votre fournisseur d’identité</target>
+      </trans-unit>
+      <trans-unit id="KZehaxs" resname="edit.known_federation_text">
+        <source>edit.known_federation_text</source>
+        <target>Ici, vous pouvez sélectionner les fédérations qui seront connues de votre fournisseur d’identité. Vos utilisateurs ne pourront utiliser que les Service Provders qui proviennent de fédérations connues. Vous devez adhérer à la fédération afin de faire connaître votre fournisseur d’identité par les fournisseurs de services.</target>
+      </trans-unit>
+      <trans-unit id="__RXW8O" resname="edit.add_sp_add_button">
+        <source>edit.add_sp_add_button</source>
+        <target>Ajouter un Fournisseur de Service</target>
+      </trans-unit>
+      <trans-unit id="xHK4PP5" resname="edit.list_sp_text">
+        <source>edit.list_sp_text</source>
+        <target>Vous pouvez éditer le Fournisseur de Service</target>
+      </trans-unit>
+      <trans-unit id=".9HA..y" resname="edit.list_sp_edit_button">
+        <source>edit.list_sp_edit_button</source>
+        <target>Editer</target>
+      </trans-unit>
+      <trans-unit id="8fixm3R" resname="edit.list_sp_remove_button">
+        <source>edit.list_sp_remove_button</source>
+        <target>Supprimer ce Fournisseur de Service</target>
+      </trans-unit>
+      <trans-unit id="HByMlaP" resname="edit.list_sp_title">
+        <source>edit.list_sp_title</source>
+        <target>Enregistrer un Fournisseur de Service personnalisé</target>
+      </trans-unit>
+      <trans-unit id="mZYy3A3" resname="edit.delete_button">
+        <source>edit.delete_button</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="hU5iA.x" resname="edit.sp_modal_delete_title">
+        <source>edit.sp_modal_delete_title</source>
+        <target>Supprimver Fournisseur de Service</target>
+      </trans-unit>
+      <trans-unit id="zHi7o4D" resname="edit.sp_modal_delete_content">
+        <source>edit.sp_modal_delete_content</source>
+        <target>C’est un Fournisseur connu exclusivement par votre Fournisseur d’Identité. En le supprimant, vos utilisateurs ne pourront plus se connecter à ce Fournisseur de Service.</target>
+      </trans-unit>
+      <trans-unit id="5a3Bd0g" resname="edit.idp_remove_button">
+        <source>edit.idp_remove_button</source>
+        <target>Supprimer Fournisseur d'Identité</target>
+      </trans-unit>
+      <trans-unit id="O8zh_J3" resname="edit.idp_modal_delete_title">
+        <source>edit.idp_modal_delete_title</source>
+        <target>Confirmer suppression Fournisseur d'identité</target>
+      </trans-unit>
+      <trans-unit id="eiw2U0C" resname="edit.idp_modal_delete_content">
+        <source>edit.idp_modal_delete_content</source>
+        <target>Faites attention! Si vous le supprimer, tous les utilisateurs associés á cette IdP seront également supprimés, ils ne seront donc plus en mesure de se connecter á aucun fournisseur de Service á travers ce Fournisseur d'Identité.</target>
+      </trans-unit>
+      <trans-unit id="nR3QpMg" resname="edit.create_step_second">
+        <source>edit.create_step_second</source>
+        <target>Enregistrer un nouveau fournisseur d’identité - deuxième étape</target>
+      </trans-unit>
+      <trans-unit id="h0.Lnva" resname="edit.create_step_second_success">
+        <source>edit.create_step_second_success</source>
+        <target>Votre IdP a été créé avec succès.</target>
+      </trans-unit>
+      <trans-unit id="KotED7f" resname="edit.idp_updated_successful">
+        <source>edit.idp_updated_successful</source>
+        <target>IdP modifié avec succès</target>
+      </trans-unit>
+      <trans-unit id="zJfO589" resname="edit.404.exception">
+        <source>edit.404.exception</source>
+        <target>L'idp n'existe pas</target>
+      </trans-unit>
+      <trans-unit id="X8yoHn." resname="edit.validate.organizationname.notblank">
+        <source>edit.validate.organizationname.notblank</source>
+        <target>Le nom de votre organisation ne peut pas être vide.</target>
+      </trans-unit>
+      <trans-unit id="TZqiBaH" resname="edit.validate.organizationurl.notblank">
+        <source>edit.validate.organizationurl.notblank</source>
+        <target>L’URL de votre organisation ne peut pas être vide.</target>
+      </trans-unit>
+      <trans-unit id="R9POtyd" resname="idp.wizard.hostname.label">
+        <source>idp.wizard.hostname.label</source>
+        <target>identifiant court</target>
+      </trans-unit>
+      <trans-unit id="lCyD8_L" resname="idp.wizard.hostname.placeholder">
+        <source>idp.wizard.hostname.placeholder</source>
+        <target>Choisissez un nom court pour votre IdP. Il peut contenir des lettres et des chiffres.</target>
+      </trans-unit>
+      <trans-unit id="sdFFwbD" resname="idp.edit.instituteName.label">
+        <source>idp.edit.instituteName.label</source>
+        <target>Nom de l'organisation</target>
+      </trans-unit>
+      <trans-unit id="btJsVVn" resname="idp.edit.instituteUrl.label">
+        <source>idp.edit.instituteUrl.label</source>
+        <target>URL de l'organisation</target>
+      </trans-unit>
+      <trans-unit id="MxD8B.9" resname="idp.delete.404">
+        <source>idp.delete.404</source>
+        <target>Impossible de trouver l’entité IdP.</target>
+      </trans-unit>
+      <trans-unit id="W1Pplr2" resname="idp.delete.deleted">
+        <source>idp.delete.deleted</source>
+        <target>Fournisseur d’identité supprimé.</target>
+      </trans-unit>
+      <trans-unit id="3bjM3uU" resname="idp.checkdomain.txt.notok">
+        <source>idp.checkdomain.txt.notok</source>
+        <target>Il n’y a pas d’enregistrement TXT avec la valeur de vérification: </target>
+      </trans-unit>
+      <trans-unit id="nQsFeEI" resname="idp.checkdomain.txt.empty">
+        <source>idp.checkdomain.txt.empty</source>
+        <target>Il n’y a pas d’enregistrement TXT pour le domaine %domain% </target>
+      </trans-unit>
+      <trans-unit id="lvlNWXn" resname="idp.checkdomain.verified_domain">
+        <source>idp.checkdomain.verified_domain</source>
+        <target>C’est un domaine vérifié.</target>
+      </trans-unit>
+      <trans-unit id="6ON_fl6" resname="idp.checkdomain.noidp">
+        <source>idp.checkdomain.noidp</source>
+        <target>Il n’y a pas d’IdP.</target>
+      </trans-unit>
+      <trans-unit id="SsZUUtK" resname="idp.unauthorized">
+        <source>idp.unauthorized</source>
+        <target>non autorisé.</target>
+      </trans-unit>
+      <trans-unit id="enOxl50" resname="idp.wrong_parameters">
+        <source>idp.wrong_parameters</source>
+        <target>paramètres incorrects.</target>
+      </trans-unit>
+      <trans-unit id="XDaTzq3" resname="idp.not_ajax">
+        <source>idp.not_ajax</source>
+        <target>Ceci n’est pas ajax !</target>
+      </trans-unit>
+      <trans-unit id="tIRlopQ" resname="idp.scope.no_such_scope">
+        <source>idp.scope.no_such_scope</source>
+        <target>Aucune portée de ce genre.</target>
+      </trans-unit>
+      <trans-unit id="wc20WaU" resname="idp.scope.invalid_domain_name_format">
+        <source>idp.scope.invalid_domain_name_format</source>
+        <target>Format de nom de domaine non valide.</target>
+      </trans-unit>
+      <trans-unit id="w1yk0qc" resname="idp.scope.already_exists">
+        <source>idp.scope.already_exists</source>
+        <target>Cette portée existe déjà.</target>
+      </trans-unit>
+      <trans-unit id="DyrL.ba" resname="idp.scope.idp_domain_not_match">
+        <source>idp.scope.idp_domain_not_match</source>
+        <target>L'IdP et le Domaine ne correspondent pas.</target>
+      </trans-unit>
+      <trans-unit id="OuhDQC." resname="idp.scope.delete.deleted">
+        <source>idp.scope.delete.deleted</source>
+        <target>Portée supprimée.</target>
+      </trans-unit>
+      <trans-unit id="amgEI2L" resname="idp.scope.delete.default">
+        <source>idp.scope.delete.default</source>
+        <target>Vous ne pouvez pas supprimer la portée par défaut.</target>
+      </trans-unit>
+      <trans-unit id="bhahAz_" resname="idp.scope.update.not_exists">
+        <source>idp.scope.update.not_exists</source>
+        <target>IdP et/ou Domain n’existait pas.</target>
+      </trans-unit>
+      <trans-unit id="E2A0SS2" resname="idp.idp_not_match">
+        <source>idp.idp_not_match</source>
+        <target>IdP ne correspond pas.</target>
+      </trans-unit>
+      <trans-unit id="YKRu4V8" resname="idp.domain.delete.deleted">
+        <source>idp.domain.delete.deleted</source>
+        <target>Domaine supprimé.</target>
+      </trans-unit>
+      <trans-unit id="k7Tjz2W" resname="idp.domain.delete.default_scope">
+        <source>idp.domain.delete.default_scope</source>
+        <target>Vous ne pouvez pas supprimer le domaine qui contient la portée par défaut.</target>
+      </trans-unit>
+      <trans-unit id="931dLBe" resname="idp.sp_attributes.404">
+        <source>idp.sp_attributes.404</source>
+        <target>SP introuvable.</target>
+      </trans-unit>
+      <trans-unit id="3kNKE.j" resname="idp.sp_attributes.saved">
+        <source>idp.sp_attributes.saved</source>
+        <target>Attributs enregistrés.</target>
+      </trans-unit>
+      <trans-unit id="wijZ9jd" resname="idp.sp_edit.no_connection">
+        <source>idp.sp_edit.no_connection</source>
+        <target>Il n’y a aucun lien entre votre IdP et l’identifiant SP donné.</target>
+      </trans-unit>
+      <trans-unit id="LSN7Sxe" resname="idp.sp.delete.deleted">
+        <source>idp.sp.delete.deleted</source>
+        <target>Fournisseur de services supprimé.</target>
+      </trans-unit>
+      <trans-unit id="K64J5lA" resname="idp.sp.add.url_not_reachable">
+        <source>idp.sp.add.url_not_reachable</source>
+        <target>L’URL donnée n’est pas accessible.</target>
+      </trans-unit>
+      <trans-unit id="N0OvXym" resname="idp.sp.add.no_metadata">
+        <source>idp.sp.add.no_metadata</source>
+        <target>Il n’y a pas de fichier de métadonnées SAML sur l’URL donnée.</target>
+      </trans-unit>
+      <trans-unit id="Em6fLqK" resname="idp.sp.add.invalid_url">
+        <source>idp.sp.add.invalid_url</source>
+        <target>L'URL ne semble pas valide.</target>
+      </trans-unit>
+      <trans-unit id="b9CQup0" resname="idp.sp.add.no_public_key.sign">
+        <source>idp.sp.add.no_public_key.sign</source>
+        <target>Les métadonnées fournies ne contiennent pas de clé publique pour la signature.</target>
+      </trans-unit>
+      <trans-unit id="pcfpRDs" resname="idp.sp.add.no_public_key.enc">
+        <source>idp.sp.add.no_public_key.enc</source>
+        <target>Les métadonnées données fournies ne contiennent pas de clé publique pour le chiffrement.</target>
+      </trans-unit>
+      <trans-unit id="90cT999" resname="idp.sp.add.added">
+        <source>idp.sp.add.added</source>
+        <target>Fournisseur de Service ajouté.</target>
+      </trans-unit>
+      <trans-unit id="a4zUa0z" resname="idp.sp.add.already_exists">
+        <source>idp.sp.add.already_exists</source>
+        <target>Ce Fournisseur de Service a déjà été ajouté.</target>
+      </trans-unit>
+      <trans-unit id="zVK2pP4" resname="idp.sp.add.already_known">
+        <source>idp.sp.add.already_known</source>
+        <target>Votre fournisseur d’identité reconnait déjà que ce fournisseur de services via %federation_name%</target>
+      </trans-unit>
+      <trans-unit id="LkhEhJm" resname="edit.apitokens">
+        <source>edit.apitokens</source>
+        <target>clés de l'API</target>
+      </trans-unit>
+      <trans-unit id="1s0XCc2" resname="edit.apitoken-name-label">
+        <source>edit.apitoken-name-label</source>
+        <target>Nom du jeton</target>
+      </trans-unit>
+      <trans-unit id="mlRO7hB" resname="edit.apitoken_clientid_label">
+        <source>edit.apitoken_clientid_label</source>
+        <target>ID Client</target>
+      </trans-unit>
+      <trans-unit id="Mp8rYE_" resname="edit.apitoken_secret_label">
+        <source>edit.apitoken_secret_label</source>
+        <target>Secret</target>
+      </trans-unit>
+      <trans-unit id="m8zoxIt" resname="edit.apitoken_submit_label">
+        <source>edit.apitoken_submit_label</source>
+        <target>Soumettre</target>
+      </trans-unit>
+      <trans-unit id="M16Jkxh" resname="edit.apitoken_delete_label">
+        <source>edit.apitoken_delete_label</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="dqQF1Kw" resname="edit.apitoken_add">
+        <source>edit.apitoken_add</source>
+        <target>Ajout d’un nouveau jeton API</target>
+      </trans-unit>
+      <trans-unit id="0eJVpOm" resname="edit.apitokens_text">
+        <source>edit.apitokens_text</source>
+        <target>__edit.apitokens_text</target>
+      </trans-unit>
+      <trans-unit id="0Wd9pix" resname="idp.edit.organizationNames.label">
+        <source>idp.edit.organizationNames.label</source>
+        <target>Nom de l'organisation</target>
+      </trans-unit>
+      <trans-unit id="yAc3Gi4" resname="language.label">
+        <source>language.label</source>
+        <target>Langue</target>
+      </trans-unit>
+      <trans-unit id="uu1lOwv" resname="institute.name.label">
+        <source>institute.name.label</source>
+        <target>Nom de l'organisation</target>
+      </trans-unit>
+      <trans-unit id="gLu7N8r" resname="idp.edit.organizationInformationURLs.label">
+        <source>idp.edit.organizationInformationURLs.label</source>
+        <target>URL de l'organisation</target>
+      </trans-unit>
+      <trans-unit id="Gm.V1Dk" resname="institute.url.label">
+        <source>institute.url.label</source>
+        <target>Organization URL</target>
+      </trans-unit>
+      <trans-unit id="r63R1PU" resname="add.organizationName.button">
+        <source>add.organizationName.button</source>
+        <target>Ajouter une nouvelle langue</target>
+      </trans-unit>
+      <trans-unit id="0iqNUnN" resname="add.organizationURL.button">
+        <source>add.organizationURL.button</source>
+        <target>Ajouter l'URL de la langue</target>
+      </trans-unit>
+      <trans-unit id="aanrx2z" resname="delete.organizationElement.button">
+        <source>delete.organizationElement.button</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="kZHMy7P" resname="edit.validate.organizationUrls.notblank">
+        <source>edit.validate.organizationUrls.notblank</source>
+        <target>L’URL de l’organisation est vide.</target>
+      </trans-unit>
+      <trans-unit id="sFvnPxn" resname="edit.validate.organizationNames.notblank">
+        <source>edit.validate.organizationNames.notblank</source>
+        <target>Le nom de l’organisation est vide.</target>
+      </trans-unit>
+      <trans-unit id="3CBz_Ej" resname="edit.validate.organizationNames.notUniqueLang">
+        <source>edit.validate.organizationNames.notUniqueLang</source>
+        <target>La langue du nom de l’organisation doit être unique..</target>
+      </trans-unit>
+      <trans-unit id="Zb84cVF" resname="edit.validate.organizationInformationURLs.notUniqueLang">
+        <source>edit.validate.organizationInformationURLs.notUniqueLang</source>
+        <target>L’URL de l’organisation de la langue doit être unique.</target>
+      </trans-unit>
+      <trans-unit id="ZfURJFH" resname="edit.validate.organizationNames.notEnLang">
+        <source>edit.validate.organizationNames.notEnLang</source>
+        <target>Le nom de l’organisation en anglais est obligatoire.</target>
+      </trans-unit>
+      <trans-unit id="0.AEZPj" resname="edit.validate.organizationUrls.notEnLang">
+        <source>edit.validate.organizationUrls.notEnLang</source>
+        <target>L’URL de l’organisation en anglais est obligatoire.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

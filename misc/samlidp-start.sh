@@ -9,7 +9,7 @@ if [ ! -z "$SAMLIDP_RUNNING_MODE" ]; then
   if [ "$SAMLIDP_RUNNING_MODE" = "frontend" ]; then
     echo "Starting in frontend mode..." && \
   	sed -i -e "s/SAMLIDP_HOSTNAME/$SAMLIDP_HOSTNAME/" /etc/nginx/sites-available/default.conf && \
-  	cd /etc/pki && openssl aes-256-cbc -md md5 -d -a -k $VAULT_PASS -in wildcard_certificate.key.enc -out wildcard_certificate.key && \
+  	cd /etc/pki && openssl aes-256-cbc -md md5 -d -a -pbkdf2 -k $VAULT_PASS -in wildcard_certificate.key.enc -out wildcard_certificate.key && \
   	/start.sh
   elif [ "$SAMLIDP_RUNNING_MODE" = "backend" ]; then
   	echo "crond started."

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="8hq3l2a" resname="doc.bigtitle">
+        <source>doc.bigtitle</source>
+        <target>SAML Identity Provider as a Service</target>
+      </trans-unit>
+      <trans-unit id="3JeTecJ" resname="doc.subtitle">
+        <source>doc.subtitle</source>
+        <target>Facile. Securisé. Fiable. Peu coûteux.</target>
+      </trans-unit>
+      <trans-unit id="uLdZrTF" resname="doc.gettingstarted">
+        <source>doc.gettingstarted</source>
+        <target>Démarrer</target>
+      </trans-unit>
+      <trans-unit id="Ysywnsw" resname="doc.docs">
+        <source>doc.docs</source>
+        <target>Documentation</target>
+      </trans-unit>
+      <trans-unit id="qvCZDIZ" resname="doc.user_managemet">
+        <source>doc.user_managemet</source>
+        <target>Gestion des utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="RcSf.gz" resname="doc.pricing">
+        <source>doc.pricing</source>
+        <target>Tarification</target>
+      </trans-unit>
+      <trans-unit id="1STzHjV" resname="doc.identity_federations">
+        <source>doc.identity_federations</source>
+        <target>Fédérations d'Identité</target>
+      </trans-unit>
+      <trans-unit id="J67iwWM" resname="doc.identity_federation_description">
+        <source>doc.identity_federation_description</source>
+        <target>Nous reconnaissons les fédérations suivantes (environs. 8500 Fournisseurs de Service ). Si vous ne retrouvez pas celle avec qui vous souhaitez collaborer, n'hésiterz pas de  nous contacter s'il vous plaît.</target>
+      </trans-unit>
+      <trans-unit id="brip5Y3" resname="doc.identity_federation_header_federation">
+        <source>doc.identity_federation_header_federation</source>
+        <target>Fédération</target>
+      </trans-unit>
+      <trans-unit id="KxE.pZ1" resname="doc.identity_federation_header_metadata_url">
+        <source>doc.identity_federation_header_metadata_url</source>
+        <target>URL de la Metadonnée</target>
+      </trans-unit>
+      <trans-unit id="NEqUVrK" resname="doc.identity_federation_header_contact_url">
+        <source>doc.identity_federation_header_contact_url</source>
+        <target>URL du Contact</target>
+      </trans-unit>
+      <trans-unit id="FJ3ZcX3" resname="doc.identity_federation_header_contact_email">
+        <source>doc.identity_federation_header_contact_email</source>
+        <target>Email du Contact</target>
+      </trans-unit>
+      <trans-unit id="E5YSXKx" resname="doc.saml_stuffs">
+        <source>doc.saml_stuffs</source>
+        <target>SAML stuff</target>
+      </trans-unit>
+      <trans-unit id="K6wcL1M" resname="doc.supported_attributes">
+        <source>doc.supported_attributes</source>
+        <target>Les attributs supportés</target>
+      </trans-unit>
+      <trans-unit id="NDhmtJc" resname="doc.supported_attributes_description">
+        <source>doc.supported_attributes_description</source>
+        <target>Les attributs SAML ci-après sont supportés par tous les Fournisseurs d'Identité hébergés:</target>
+      </trans-unit>
+      <trans-unit id="rKDHYPm" resname="doc.supported_attributes_sn">
+        <source>doc.supported_attributes_sn</source>
+        <target>Contient le nom de l'utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="R33d6Vf" resname="doc.supported_attributes_givenname">
+        <source>doc.supported_attributes_givenname</source>
+        <target>Contient le prénom de l'utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="54hMiKO" resname="doc.supported_attributes_displayname">
+        <source>doc.supported_attributes_displayname</source>
+        <target>Nom de la personne dans le format que l'utilisateur (ou son organisation) souhaite le voir s'afficher.</target>
+      </trans-unit>
+      <trans-unit id="PNx6SHG" resname="doc.supported_attributes_mail">
+        <source>doc.supported_attributes_mail</source>
+        <target>Addresse préférée du champ "A:" pour l'envoi de mail á cette personne. Rien ne garantit que l'addresse dans ce champ représente une addresse institutionnelle pour un utilisateur donné dans le cadre d'un processus de vérification d'identité.</target>
+      </trans-unit>
+      <trans-unit id="1LhWhLC" resname="doc.supported_attributes_eppn">
+        <source>doc.supported_attributes_eppn</source>
+        <target>Une valeur simple de la forme utilisateur@scope, où scope est une chaine semblable á un sous-domaine DNS représentant le domaine de sécurité de l'utilisateur ("foobar.example.org" ou le domaine propre de l'organisation ajoutée au Fournisseur d'Identité sur la page d'administration) et utilisateur est une clé arbitraire persitente qui correspond sans ambiguité á la personne au sein de l'organisation.</target>
+      </trans-unit>
+      <trans-unit id="hfVsYqb" resname="doc.supported_attributes_eptid">
+        <source>doc.supported_attributes_eptid</source>
+        <target>Une chaine simple d'au plus 256 caractères qui identifie de façon unique un utilisateur dans un mode opaque et préservant la vie privée. La valeur sera différente pour un utilisateur donné pour chaque Fournisseur de Service auquel une valeur est envoyée, pour prévenir la correlation d'activités entre les Fournisseurs de Service.</target>
+      </trans-unit>
+      <trans-unit id="FCdGbj3" resname="doc.supported_attributes_epsa">
+        <source>doc.supported_attributes_epsa</source>
+        <target>Valeurs multiples de la forme valeur@scope, où scope est une chaine semblable á un sous-domaine DNS représentant le domaine ou le sous domaine d'appartenance de l'utilisateurou le domaine propre de l'organisation ajoutée au Fournisseur d'Identité sur la page d'administration) et la valeur est :</target>
+      </trans-unit>
+      <trans-unit id="SYap2g_" resname="doc.supported_attributes_epsa_description">
+        <source>doc.supported_attributes_epsa_description</source>
+        <target>Affiliation est une expression de haut niveau de la relation de l'utilisateur á l'Université ou l'organisation spécifié dans le champ scope. Un utilisateur peut avoir plusieurs affiliations, bien que certaines valeur s'excluent mutuellememt. Cet attribut est souvent rendu disponible á tout Fournisseur de Service, et représente un bon critere pour filtrer ou bloquer les utilisateurs d'un type général donné. En particulier. "member" est une indication que l'utilisateur est personne ayant un status relativement officiel avec l'Université en ce moment précis, et donc il ne s'applique pas aux invités, et autres comptes temporaires, aux employés licenciés ou ayant terminé leurs contrats, aux étudiants non inscrits ou n'ayant pas payés leurs scolarité, ou tout autre cas exceptionnels.</target>
+      </trans-unit>
+      <trans-unit id="jv.aZda" resname="doc.supported_attributes_schachot">
+        <source>doc.supported_attributes_schachot</source>
+        <target>Le type de l' organisation, une des valeurs suivantes :</target>
+      </trans-unit>
+      <trans-unit id="43Wndo9" resname="doc.test_attribute_releasing">
+        <source>doc.test_attribute_releasing</source>
+        <target>Tester la divulgation des attributs </target>
+      </trans-unit>
+      <trans-unit id="8TsjjPs" resname="doc.ec">
+        <source>doc.ec</source>
+        <target>Categories d'Entité</target>
+      </trans-unit>
+      <trans-unit id="mquGuBN" resname="doc.all_identity_provider_support">
+        <source>doc.all_identity_provider_support</source>
+        <target><![CDATA[
+          Votre Fournisseur d'Identité supporte le <a href="https://refeds.org/category/research-and-scholarship" target="_blank">Catégorie d'Entité "Recherche et Bourse d'étude"</a><br />Quand vos utilisateurs se connecte á un Fournisseur de Service disposant de la Catégorie d'Entité "Recherche et Bourse d'étude", les attributs suivants  sont divulgués sur consentement: 
+          ]]></target>
+      </trans-unit>
+      <trans-unit id="0QEbXFw" resname="doc.scopes_title">
+        <source>doc.scopes_title</source>
+        <target>Portée</target>
+      </trans-unit>
+      <trans-unit id="bkjGQ8f" resname="doc.scopes_description">
+        <source>doc.scopes_description</source>
+        <target>
+          Votre Fournisseur d'Identité a une portée par défaut sous le domaine principal. Cela marche tres bien ; mais pour un usage en production, nous recommandons d'utiliser un nom de domaine appartenant á votre organisation. Avant de commencer á utiliser votre nom de domaine comme scope, nous vérifions qu'il existe et au'il est effectivement sous votre controle. s'il vous plaît créez un enregistrement TXT dans votre zone DNS avec le contenu du hash que vous trouverez dans la page d'édition de l'IdP.
+        </target>
+      </trans-unit>
+      <trans-unit id="amGK3S." resname="index.ready_title">
+        <source>index.ready_title</source>
+        <target>Prêt dans cinq minutes</target>
+      </trans-unit>
+      <trans-unit id="JoURHYg" resname="index.ready_text">
+        <source>index.ready_text</source>
+        <target>Votre Fournisseur d’Identité SAML interopérable et sécurisé n’est qu’à quelques clics ! Aucune infrastructure ou expertise SAML n’est requise</target>
+      </trans-unit>
+      <trans-unit id="6aPXR8f" resname="index.easy_administration_title">
+        <source>index.easy_administration_title</source>
+        <target>Administration Facile</target>
+      </trans-unit>
+      <trans-unit id="WCIbz3r" resname="index.easy_administration_text">
+        <source>index.easy_administration_text</source>
+        <target>Vous avez une belle interface utilisateur pour gérer vos utilisateurs, nous faisons tous les trucs ennuyeux SAML pour vous.</target>
+      </trans-unit>
+      <trans-unit id="6F71pEv" resname="index.compatibility_title">
+        <source>index.compatibility_title</source>
+        <target>Compatibilité</target>
+      </trans-unit>
+      <trans-unit id="IabeUd8" resname="index.compatibility_text">
+        <source>index.compatibility_text</source>
+        <target>Intégrez votre fédération nationale d’identité en utilisant les normes et recommandations les plus récentes</target>
+      </trans-unit>
+      <trans-unit id="E7QnrFm" resname="index.low_fees_title">
+        <source>index.low_fees_title</source>
+        <target>Faible coût</target>
+      </trans-unit>
+      <trans-unit id="yJQGFpv" resname="index.low_fees_text">
+        <source>index.low_fees_text</source>
+        <target><![CDATA[Vous payez en fonction du nombre d’utilisateurs utilisant réellement le service. Pas de frais par connexion. Avec une faible utilisation et pendant la phase pilote, il est <b>absolument gratuit</b>.]]></target>
+      </trans-unit>
+      <trans-unit id="gvKd50I" resname="index.how_to_start">
+        <source>index.how_to_start</source>
+        <target>Comment configurer un fournisseur d’identité ?</target>
+      </trans-unit>
+      <trans-unit id="A.AHdJh" resname="index.sign_up">
+        <source>index.sign_up</source>
+        <target>Inscrivez-vous en tant que administrateur</target>
+      </trans-unit>
+      <trans-unit id="ZV4jp4I" resname="index.create_idp">
+        <source>index.create_idp</source>
+        <target>Créez votre Fournisseur d'Identité </target>
+      </trans-unit>
+      <trans-unit id="klMM22D" resname="index.add_users">
+        <source>index.add_users</source>
+        <target>Ajoutez des utilisateurs dans votre organisation</target>
+      </trans-unit>
+      <trans-unit id="h.tS.KH" resname="index.register_to_fed">
+        <source>index.register_to_fed</source>
+        <target>Enregistrez votre IdP dans votre Fédération nationale d'identité</target>
+      </trans-unit>
+      <trans-unit id="dxMXGfg" resname="index.pricing_title">
+        <source>index.pricing_title</source>
+        <target>Tarification</target>
+      </trans-unit>
+      <trans-unit id="Ft7lAOl" resname="index.pricing_text">
+        <source>index.pricing_text</source>
+        <target>Nous utilisons un taux forfaitaire.</target>
+      </trans-unit>
+      <trans-unit id="__h7LD9" resname="index.pricing_description">
+        <source>index.pricing_description</source>
+        <target><![CDATA[
+        Le prix est basé sur le <b>type de votre organisation</b> et le  <b>nombre d'utilisateurs unique connectés</b> via le Fournisseur d'Identité dans le période actuelle de 30 jours
+        ]]></target>
+      </trans-unit>
+      <trans-unit id="J6et5OY" resname="doc.usermanagement_registering_title">
+        <source>doc.usermanagement_registering_title</source>
+        <target>Enregistrement des utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="eIAPmP7" resname="doc.usermanagement_registering_content">
+        <source>doc.usermanagement_registering_content</source>
+        <target>En tant qu’administrateur, vous pouvez ajouter des utilisateurs un par un ou télécharger les informations les concernant dans un fichier CSV. Tous les champs sont obligatoires, et une fois l’utilisateur créé, le nom d’utilisateur ne peut pas être modifié.</target>
+      </trans-unit>
+      <trans-unit id="Ciu5aic" resname="doc.usermanagement_passwords_title">
+        <source>doc.usermanagement_passwords_title</source>
+        <target>Mots de passe</target>
+      </trans-unit>
+      <trans-unit id="OMXBpsE" resname="doc.usermanagement_passwords_content">
+        <source>doc.usermanagement_passwords_content</source>
+        <target>Vous ne pouvez pas définir de mot de passe pour un utilisateur. Lorsque vous vous inscrivez ou activez un utilisateur, un jeton sera envoyé à l’utilisateur directement par courriel, à l’aide duquel il peut définir son mot de passe. Tous les mots de passe sont fortement hachés et conservés en toute sécurité.</target>
+      </trans-unit>
+      <trans-unit id="DJPOxzI" resname="doc.usermanagement_enabling_title">
+        <source>doc.usermanagement_enabling_title</source>
+        <target>Réglage de l’état de l’utilisateur</target>
+      </trans-unit>
+      <trans-unit id="UvDkCfH" resname="doc.usermanagement_enabling_content">
+        <source>doc.usermanagement_enabling_content</source>
+        <target>Si un utilisateur est activé, il peut se connecter via le fournisseur d’identité, s’il est désactivé, il n’est pas autorisé. Un utilisateur avec le statut désactivé peut être activé à nouveau à tout moment, mais après un an, l’utilisateur est retiré de la liste des utilisateurs.</target>
+      </trans-unit>
+      <trans-unit id="n8ozQc3" resname="doc.usermanagement_deleting_title">
+        <source>doc.usermanagement_deleting_title</source>
+        <target>Suppression d'utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="_p.67mw" resname="doc.usermanagement_deleting_content">
+        <source>doc.usermanagement_deleting_content</source>
+        <target>Si vous supprimez un utilisateur, toutes les données sauf leur nom d’utilisateur sont supprimées immédiatement et irrévocablement. Le nom d’utilisateur est ajouté à une liste interne d’identificateurs d’utilisateurs supprimés afin d’éviter toute réaffectation future.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

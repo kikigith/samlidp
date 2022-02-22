@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="DH0efVF" resname="Register New Identity Provider">
+        <source>Register New Identity Provider</source>
+        <target>Créer un nouveau Fournisseur d'Identité</target>
+      </trans-unit>
+      <trans-unit id="gW0VgyU" resname="massimport.title">
+        <source>massimport.title</source>
+        <target>__massimport.title</target>
+      </trans-unit>
+      <trans-unit id="cwx3p8F" resname="massimport.processed">
+        <source>massimport.processed</source>
+        <target>__massimport.processed</target>
+      </trans-unit>
+      <trans-unit id="b02A1AE" resname="back_to_the_list">
+        <source>back_to_the_list</source>
+        <target>Retour á la liste</target>
+      </trans-unit>
+      <trans-unit id="MDWu26c" resname="massimport.error_count">
+        <source>massimport.error_count</source>
+        <target>__massimport.error_count</target>
+      </trans-unit>
+      <trans-unit id="LZ.UmuP" resname="massimport.not_processed">
+        <source>massimport.not_processed</source>
+        <target>__massimport.not_processed</target>
+      </trans-unit>
+      <trans-unit id="1JN4HcS" resname="new.title">
+        <source>new.title</source>
+        <target>__new.title</target>
+      </trans-unit>
+      <trans-unit id="QncJYTh" resname="new.create_button">
+        <source>new.create_button</source>
+        <target>__new.create_button</target>
+      </trans-unit>
+      <trans-unit id="rF_WZFu" resname="EasyAdmin">
+        <source>EasyAdmin</source>
+        <target>EasyAdmin</target>
+      </trans-unit>
+      <trans-unit id="SPDT05f" resname="Sign out">
+        <source>Sign out</source>
+        <target>Se déconnecter</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="XiuOllA" resname="Sign up">
+        <source>Sign up</source>
+        <target>S'inscrire'</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

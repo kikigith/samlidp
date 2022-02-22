@@ -1,0 +1,56 @@
+version: "3.7"
+
+services:
+  samli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "mwotila/samli:0.2"
+    #image: "samli/nren:4.2"
+    container_name: "samli"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      #- /path/to/idp_logo:/app/web/images/idp_logo
+      - ./conf/credentials/wildcard_certificate.crt:/etc/pki/wildcard_certificate.crt
+      - ./conf/credentials/wildcard_certificate.key:/etc/pki/wildcard_certificate.key
+      - ./conf/credentials/wildcard_certificate.key.enc:/etc/pki/wildcard_certificate.key.enc
+    restart: unless-stopped
+    environment:
+      - "SAMLIDP_RUNNING_MODE=frontend"
+      - "SAMLIDP_HOSTNAME=riter.eduid.africa"
+      - "VAULT_PASS=8Vo0ckOfwrtX1sQiBwDHGNzrDuRRo3uR"
+      - "DATABASE_HOST=db"
+      - "DATABASE_PORT=5432"
+      - "DATABASE_DRIVER=pdo_pgsql"
+      - "DATABASE_VERSION=10"
+      - "DATABASE_NAME=riter"
+      - "DATABASE_USER=eduider"
+      - "DATABASE_PASSWORD=90c0UxCDV62RqZto"
+      #- "MAILER_HOST=smtp.sparkpostmail.com"
+      - "MAILER_HOST=mail.wacren.net"
+      - "MAILER_PORT=587"
+      #- "MAILER_USER=SMTP_Injection"
+      - "MAILER_USER=eduid-notify"
+      - "MAILER_PASSWORD=£Du1d#1202"
+      - "MAILER_SENDER=eduid-notify@wacren.net"
+      - "ROLLBAR_ACCESS_TOKEN=94f6c83f013e40beb3309006f6a22e77"
+      - "LOGGLY_AUTH_TOKEN=9eb2682e-4790-4487-9629-ed8d06e1a7b8"
+      - "LOGGLY_TAG=eduid-togorer"
+  db:
+    image: postgres:10
+    container_name: postgres
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    logging:
+      driver: "json-file"
+      #driver: "fluentd"
+    environment:
+      POSTGRES_PASSWORD: vChYMCiLFoJme4FM
+volumes:
+  storage-data:
+  db-data:
