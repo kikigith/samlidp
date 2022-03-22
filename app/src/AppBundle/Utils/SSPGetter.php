@@ -174,7 +174,7 @@ class SSPGetter
                         $result[$idp->getEntityId($this->samlidp_hostname)]['UIInfo']['DisplayName'][$orgElem->getLang()] = $orgElem->getValue();
                         $o_elements[] = $orgElem->getValue();
                     }
-                    if ($orgElem->getType() == 'InformationUrl') {
+                    if ($orgElem->getType() == 'InformationURL') {
                         $result[$idp->getEntityId($this->samlidp_hostname)]['OrganizationURL'][$orgElem->getLang()] = $orgElem->getValue();
                     }
                 }
